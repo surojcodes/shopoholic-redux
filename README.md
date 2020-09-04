@@ -26,6 +26,7 @@
 
 ## Demo
 
+![alt text](https://surojmaharjan0.github.io/projectimages/images/sh3.PNG)
 Website is live [here](https://shopoholicredux.netlify.app/)
 
 - Version **1.0.0**
