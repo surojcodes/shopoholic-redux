@@ -11,18 +11,22 @@ import About from './pages/About';
 import Home from './pages/Home';
 import NotFound from './pages/NotFound';
 
+import store from './store';
+import { Provider } from 'react-redux';
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Switch>
-        <Route exact path='/' component={Home} />
-        <Route exact path='/usage' component={Usage} />
-        <Route exact path='/about' component={About} />
-        <Route component={NotFound} />
-      </Switch>
-      <Footer />
-    </Router>
+    <Provider store={store}>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route exact path='/usage' component={Usage} />
+          <Route exact path='/about' component={About} />
+          <Route component={NotFound} />
+        </Switch>
+        <Footer />
+      </Router>
+    </Provider>
   );
 }
 

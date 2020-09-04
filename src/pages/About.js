@@ -14,8 +14,7 @@ const About = () => {
             {' '}
             Shopoholic is written in React using
             <span className='text-danger'> hooks</span> and
-            <span className='text-danger'> context API</span> with reducer for
-            state management.{' '}
+            <span className='text-danger'> Redux</span> for state management.{' '}
           </p>
           <div>
             <h3 className=' mt-4'>

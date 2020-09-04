@@ -8,7 +8,7 @@ const Navbar = () => {
         <Link className='navbar-brand' to='/'>
           <strong>
             {' '}
-            sh<span className='text-dark'>OP</span>oholic
+            sh<span className='text-danger'>OP</span>oholic
           </strong>
         </Link>
         <button
